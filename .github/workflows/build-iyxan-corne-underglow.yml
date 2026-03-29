@@ -1,7 +1,7 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: Build Iyxan's Corne
+name: Build Iyxan's Corne (with underglows)
 on: workflow_dispatch
 jobs:
   build:
