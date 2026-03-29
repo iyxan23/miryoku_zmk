@@ -8,6 +8,6 @@ jobs:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '["nice_nano_v2"]'
+      board: '["nice_nano"]'
       shield: '["corne_left","corne_right"]'
       kconfig: '["CONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_STUDIO_LOCKING=n\nCONFIG_ZMK_STUDIO=y\nCONFIG_BT_CTLR_TX_PWR_PLUS_8=y\nCONFIG_ZMK_IDLE_TIMEOUT=180000\nCONFIG_ZMK_SLEEP=y\nCONFIG_ZMK_IDLE_SLEEP_TIMEOUT=9000000\nCONFIG_ZMK_PM_SOFT_OFF=y\nCONFIG_ZMK_POINTING=y\nSNIPPET=studio-rpc-usb-uart"]'
