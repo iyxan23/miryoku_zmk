@@ -12,3 +12,5 @@
 &soft_off {
     /delete-property/ split-peripheral-off-on-press;
 };
+
+#define MIRYOKU_NAV_VI
