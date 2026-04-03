@@ -14,3 +14,15 @@
 };
 
 #define MIRYOKU_NAV_VI
+
+/ {
+    iyxan_combos {
+        compatible = "zmk,combos";
+
+        combo_tap_space_bspc_to_base {
+            layers = <2>;
+            key-positions = <37 40>;
+            bindings = <&to 0>;
+        };
+    };
+};
